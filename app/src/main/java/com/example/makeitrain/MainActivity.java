@@ -36,11 +36,9 @@ public class MainActivity extends AppCompatActivity {
         NumberFormat numberFormat = NumberFormat.getCurrencyInstance();
         moneyCounter += 1000;
         moneyText.setText(String.valueOf(numberFormat.format(moneyCounter)));
-//        Log.d("MyTag", "make it rain: Tapped " + moneyCounter);
     }
 
     public void showTag(View v) {
         Toast.makeText(getApplicationContext(), R.string.app_name, Toast.LENGTH_LONG).show();
-//        Log.d("MIR", "Make it rain: Tapped");
     }
 }
